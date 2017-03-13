@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @OnClick(R.id.button_login)
     public void onClickButtonLogin(View view){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, FrontActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
